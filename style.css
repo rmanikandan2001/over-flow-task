@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.row{
+	display:flex;
+	flex-wrap:no wrap;
+}
+
+.as{
+	height:300px;
+	width:300px;
+	background-color:blue;
+	overflow:visible;
+	
+}
+.ad{
+	height:300px;
+	width:300px;
+	background-color:blue;
+	overflow:hidden;
+}
+
+.af{
+	height:300px;
+	width:300px;
+	background-color:blue;
+	overflow:auto;
+}
+
+.ag{
+	height:300px;
+	width:300px;
+	background-color:blue;
+	overflow:scroll;
+}
